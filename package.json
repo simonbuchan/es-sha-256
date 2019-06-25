@@ -2,6 +2,10 @@
   "name": "@simonbuchan/sha-256",
   "version": "1.0.0",
   "description": "SHA-256 core implementation in pure ECMAScript, in a functional-ish style, copy-right free.",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/simonbuchan/es-sha-256"
+  },
   "main": "out/cjs/sha256.js",
   "module": "out/es/sha256.js",
   "license": "CC0-1.0",
