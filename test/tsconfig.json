@@ -1,0 +1,14 @@
+{
+  "extends": "../tsconfig.json",
+  "compilerOptions": {
+    "inlineSourceMap": false,
+    "lib": [
+      "es2015"
+    ],
+    "types": [
+      "node",
+      "mocha"
+    ]
+  },
+  "include": ["./**/*.ts"]
+}

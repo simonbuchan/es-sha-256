@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "outDir": "out/cjs",
+    "rootDir": "src",
+    "module": "commonjs",
+    "target": "es2017",
+    "strict": true,
+    "sourceMap": true,
+    "declaration": true,
+    "declarationMap": true,
+    "lib": [
+      "es5"
+    ],
+    "types": []
+  },
+  "include": [
+    "src"
+  ]
+}

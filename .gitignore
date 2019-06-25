@@ -1,0 +1,6 @@
+.nyc_output/
+.profiles/
+node_modules/
+out/
+*.tgz
+*.log
