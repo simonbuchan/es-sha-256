@@ -1,0 +1,21 @@
+version: 2.1
+
+orbs:
+  node: circleci/node@1.0.1
+
+jobs:
+  build:
+    executor:
+      name: node/default
+      tag: 12.4.0
+    steps:
+      - checkout
+      - node/with-cache:
+          steps:
+            - run: yarn
+      - run: yarn build
+      - run: yarn coverage
+      - run:
+          environment:
+            COVERALLS_SERVICE_NAME: circle-ci
+          command: yarn report-coveralls
